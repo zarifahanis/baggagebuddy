@@ -8,7 +8,7 @@ import 'app_design.dart';
 class AboutPage extends StatelessWidget {
   const AboutPage({super.key});
 
-  // Github URL 
+  // Github URL
   static const String githubLink =
       'https://github.com/zarifahanis/baggagebuddy';
 
@@ -178,18 +178,25 @@ class AboutPage extends StatelessWidget {
 
                       const SizedBox(height: 20),
 
-                      //student id / matric number
+                      // student id / matric number
                       const Text(
                         'STUDENT ID / MATRIC NUMBER',
                         style: labelStyle,
                       ),
 
-                      const SizedBox(height: 20),
+                      const SizedBox(height: 6),
 
-                      //course info
                       const Text(
                         '2024667126',
                         style: TextStyle(fontSize: 16),
+                      ),
+
+                      const SizedBox(height: 20),
+
+                      // course info
+                      const Text(
+                        'COURSE',
+                        style: labelStyle,
                       ),
 
                       const SizedBox(height: 6),
@@ -274,6 +281,6 @@ class AboutPage extends StatelessWidget {
           ],
         ),
       ),
-    ); 
+    );
   }
 }
